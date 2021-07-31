@@ -3,7 +3,7 @@
     "description": "This package provides a user friendly way of interacting with Google Contacts via the Google People API.",
     "type": "library",
     "require": {
-        "vyanary11/php-google-oauth-2-handler": "master"
+        "vyanary11/php-google-oauth-2-handler": "dev-master"
     },
     "repositories":[
         {
