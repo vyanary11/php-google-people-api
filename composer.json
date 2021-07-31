@@ -2,9 +2,12 @@
     "name": "rapidwebltd/php-google-people-api",
     "description": "This package provides a user friendly way of interacting with Google Contacts via the Google People API.",
     "type": "library",
-    "require": {
-        "rapidwebltd/php-google-oauth-2-handler": "^1.2.1"
-    },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "https://github.com/vyanary11/php-google-oauth-2-handler.git"
+        }
+    ],
     "license": "LGPL-3.0-only",
     "authors": [
         {
@@ -14,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "RapidWeb\\GooglePeopleAPI\\": "./src/"
+            "vyanary11\\GooglePeopleAPI\\": "./src/"
         }
     }
 }
