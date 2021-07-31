@@ -8,7 +8,7 @@
     "repositories":[
         {
             "type": "vcs",
-            "url": "https://github.com/vyanary11/php-google-oauth-2-handler.git"
+            "url": "https://github.com/vyanary11/php-google-oauth-2-handler"
         }
     ],
     "license": "LGPL-3.0-only",
